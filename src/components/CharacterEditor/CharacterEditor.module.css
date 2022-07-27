@@ -3,10 +3,14 @@
   padding-bottom: 64px;
 }
 
+/* hsl(195deg, 20%, 86%) */
+
 .maxWidthWrapper {
+  /* overflow: auto; */
 }
 
 .header {
+  max-width: 65%;
   padding-bottom: 64px;
 }
 
@@ -24,7 +28,15 @@
 }
 
 .characterWrapper {
+  min-height: 500px;
+  position: sticky;
+  width: 35%;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: 0;
+  /* float: right; */
 }
 
 .controlColumn {
+  max-width: 50%;
 }
